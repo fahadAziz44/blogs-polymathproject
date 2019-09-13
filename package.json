@@ -1,0 +1,20 @@
+{
+  "name": "polycrawler",
+  "version": "0.0.1",
+  "description": "a webcrawler designed to get data/info from polymathproject.com to make it more organized and searchable ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d lib/ src.js"
+  },
+  "author": "fufu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
+}
